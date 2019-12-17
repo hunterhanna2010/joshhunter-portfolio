@@ -65,8 +65,8 @@ body, html {
 /* Expanding image text */
 #imgtext {
   position: absolute;
-  bottom: 25px;
-  left: 25px;
+  bottom: 30px;
+  left: 30px;
   text-shadow: 2px 2px black;
   color: silver;
   font-size: 30px;
