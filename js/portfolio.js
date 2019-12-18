@@ -29,6 +29,7 @@ var modal = document.querySelector(".modal");
     trigger.addEventListener("click", toggleModal);
     closeButton.addEventListener("click", toggleModal);
     window.addEventListener("click", windowOnClick);
+
 	
 
   
