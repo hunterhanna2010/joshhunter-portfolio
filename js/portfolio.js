@@ -1,4 +1,20 @@
-console.log(`Are we alive?`)
+console.log(`we are live!`)
+
+let jobImagesArray = [
+    './imgs/Jobtracker1.png',
+    './imgs/Jobtracker2.png',
+    './imgs/Jobtracker3.png',
+    './imgs/Jobtracker4.png',
+    './imgs/Jobtracker5.png'
+]
+
+let lightImagesArray = [
+    './imgs/LTLO-01.png',
+    './imgs/LTLO-02.png',
+    './imgs/LTLO-03.png',
+    './imgs/LTLO-04.png',
+    './imgs'
+]
 function myFunction(imgs) {
     // Get the expanded image
     var expandImg = document.getElementById("expandedImg");

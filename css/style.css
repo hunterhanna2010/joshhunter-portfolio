@@ -21,6 +21,8 @@ body, html {
   position: relative;
 }
 
+
+
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
@@ -125,6 +127,16 @@ body, html {
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-.smile {
-    border-radius: 50%;
+@media only screen and (max-device-width: 500px) {
+  .hero-text {
+    background-color:rgba(15, 15, 15, 0.089);
+    min-width: 90%;
+    max-width: 100%;
+    padding: 20px;
+  }
+  body {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
 }
