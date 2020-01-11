@@ -2,6 +2,7 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 
@@ -11,7 +12,9 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1551641145-a1e18544acb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 
   /* Set a specific height and width */
+  margin: 0 auto;
   height: 50%;
+  width: 100%;
 
 
   /* Position and center the image to scale nicely on all screens */
@@ -128,15 +131,20 @@ body, html {
 }
 
 @media only screen and (max-device-width: 500px) {
-  .hero-text {
+  .hero-text, .hero-image {
     background-color:rgba(15, 15, 15, 0.089);
     min-width: 90%;
     max-width: 100%;
-    padding: 20px;
+    padding: .5em 1em 1em;
   }
   body {
     margin: 0 auto;
     align-items: center;
     text-align: center;
+    padding: 20px;
   }
+
+  /* .hero-image {
+    padding: .5em;
+  } */
 }
