@@ -84,8 +84,8 @@ button {
   position: absolute;
   top: 5px;
   left: 30px;
-  text-shadow: 2px 2px black;
-  color: silver;
+  text-shadow: 10px 10px black;
+  color: #fafafa;
   font-size: 30px;
 }
 
