@@ -2,6 +2,7 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0 auto;
+    background-color: #fafafa;
 }
 
 img {
@@ -115,7 +116,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #fafafa;
     color:rgb(14, 13, 13);
     padding: 1rem 1.5rem;
     width: 24rem;
@@ -145,13 +146,25 @@ button {
     background-color:rgba(15, 15, 15, 0.089);
     min-width: 90%;
     max-width: 100%;
-    padding: .5em 1em 1em;
+    min-height: 80%;
+  }
+
+  .modal-content {
+    text-align: center;
+    min-width: 50%;
+    max-width: 85%;
+    padding: 1px;
+    margin-top: .5px;
+  }
+
+  .trigger {
+    background-color: #fafafa;
+
   }
   body {
     margin: 0 auto;
     align-items: center;
     text-align: center;
-    padding: 20px;
   }
 
   /* .hero-image {
