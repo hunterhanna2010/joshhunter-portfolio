@@ -82,10 +82,9 @@ button {
 /* Expanding image text */
 #imgtext {
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 30px;
-  text-shadow: 10px 10px black;
-  color: #fafafa;
+  color: #161515;
   font-size: 30px;
 }
 
